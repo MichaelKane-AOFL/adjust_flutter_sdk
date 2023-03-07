@@ -97,11 +97,11 @@ class Adjust {
     return googleAdId;
   }
 
-  static Future<num> requestTrackingAuthorizationWithCompletionHandler() async {
-    final num status = await _channel
-        .invokeMethod('requestTrackingAuthorizationWithCompletionHandler');
-    return status;
-  }
+//  static Future<num> requestTrackingAuthorizationWithCompletionHandler() async {
+//    final num status = await _channel
+//        .invokeMethod('requestTrackingAuthorizationWithCompletionHandler');
+//    return status;
+//  }
 
   static Future<int> getAppTrackingAuthorizationStatus() async {
     final int authorizationStatus =
