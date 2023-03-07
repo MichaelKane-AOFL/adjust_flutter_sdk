@@ -72,8 +72,8 @@ static NSString * const CHANNEL_API_NAME = @"com.adjust.sdk/api";
         [self trackAppStoreSubscription:call withResult:result];
     } else if ([@"trackPlayStoreSubscription" isEqualToString:call.method]) {
         [self trackPlayStoreSubscription:call withResult:result];
-    } else if ([@"requestTrackingAuthorizationWithCompletionHandler" isEqualToString:call.method]) {
-        [self requestTrackingAuthorizationWithCompletionHandler:call withResult:result];
+    //} else if ([@"requestTrackingAuthorizationWithCompletionHandler" isEqualToString:call.method]) {
+      //  [self requestTrackingAuthorizationWithCompletionHandler:call withResult:result];
     } else if ([@"getAppTrackingAuthorizationStatus" isEqualToString:call.method]) {
         [self getAppTrackingAuthorizationStatus:call withResult:result];
     } else if ([@"updateConversionValue" isEqualToString:call.method]) {
